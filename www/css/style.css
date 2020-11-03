@@ -1,0 +1,167 @@
+/* Global CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body
+{
+  width: 100vw;
+  height: 100vh;
+  background: #04040c;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* Pages CSS */
+
+div.contactList
+{
+  width: 90vw;
+  margin: 12px auto;
+
+  border: 1px solid #ed2c6f;
+  border-radius: 20px;
+
+  padding: 11px 20px;
+}
+
+div.contactList fieldset
+{
+  border: 0;
+}
+
+div.contactList fieldset + fieldset
+{
+  margin-top: 20px;
+}
+
+div.contactList fieldset legend
+{
+  width: 100%;
+
+  font-size: 24px;
+  line-height: 17px;
+  color: #f7a1bf;
+  font-weight: 700;
+
+  border-bottom: 1px solid #f7a1bf;
+  margin-bottom: 10px;
+  padding-bottom: 12px; 
+}
+
+div.contactList .contactInfo + .contactInfo
+{
+  margin-top: 12px;
+}
+
+div.contactList .contactInfo
+{
+  color: #f7a1bf;
+  border: 1px solid #ed2c6f;
+  border-radius: 10px;
+
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+div.contactList .contactInfo label
+{
+  display: flex;
+  color: #f7a1bf;
+  margin-bottom: 4px;
+  line-height: 20px;
+
+  font-size: 14pt;
+  font-weight: 600;
+}
+
+div.contactList .contactInfo small
+{
+  color: #f7a1bf;
+  font-size: 12pt;
+  line-height: 20px;
+}
+
+footer .btnNew
+{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+
+  text-decoration: none;
+
+  width: 50px;
+  height: 50px;
+
+  border: 0;
+
+  color: #FFF;
+  background: radial-gradient(#f7a1bf, #ed2c6f);
+  border-radius: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#addContactModal .modal-content
+{
+  background-color: #04040c;
+  color: #f7a1bf;
+  border: 1px solid #ed2c6f;
+}
+
+#addContactModal .modal-content .modal-header
+{
+  border-bottom: 1px solid #ed2c6f;
+}
+
+#addContactModal .modal-content .modal-body
+{
+  padding: 30px;
+}
+
+#addContactModal .modal-content .modal-footer
+{
+  border-top: 1px solid #ed2c6f;
+}
+
+#addContactModal .modal-content .modal-body label
+{
+  font-weight: 600;
+}
+
+#addContactModal .modal-content .modal-body input
+{
+  background: #04040c;
+  border: 1px solid #ed2c6f;
+  color: #f7a1bf;
+
+  margin-bottom: 20px;
+}
+
+#addContactModal .modal-content .modal-footer button
+{
+  border: 1px solid #ed2c6f;
+  color: #ed2c6f;
+}
+
+#addContactModal .modal-content .modal-footer button:hover
+{
+  background: #04040c;
+  border: 1px solid #f7a1bf;
+  color: #f7a1bf;
+}
+
+#addContactModal .modal-content .modal-footer button:focus
+{
+  outline: none;
+}
