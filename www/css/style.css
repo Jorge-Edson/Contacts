@@ -33,6 +33,10 @@ div.contactList
   padding: 11px 20px;
 }
 
+#botao{
+  background-color: black;
+}
+
 div.contactList fieldset
 {
   border: 0;
@@ -153,6 +157,26 @@ footer .btnNew
   border: 1px solid #ed2c6f;
   color: #ed2c6f;
 }
+
+.button{
+  background: #04040c;
+  border: 1px solid #ed2c6f;
+  color: #f7a1bf;
+  border-radius: 5px;
+}
+
+.col-3{
+  margin-top: 20px;
+
+}
+#cEdit{
+  margin-left: 20px;
+}
+#cDelete{
+  margin-left: -26px;
+}
+
+
 
 #addContactModal .modal-content .modal-footer button:hover
 {
