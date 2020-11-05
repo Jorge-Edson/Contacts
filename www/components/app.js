@@ -40,7 +40,7 @@ function loadContacts(contactData)
           <label class="nomeContato">${contactData.nome}</label>
                             <small>Telefone:</small> 
                             <span class="telContato">${contactData.tel}</span><br>
-                            <small>E-maiL:</small>
+                            <small>E-mail:</small>
                             <span class="emailContato">${contactData.email}</span>
                 </div>
         <div class="col-3" id="cEdit">
